@@ -1,37 +1,24 @@
-.w1 {
-    width: 25%;
-    margin: 0em;
-    padding: 0em;
-}
-
 .h1 {
+    padding: 0em;
+    margin: 0em;
     height: 2em;
-    margin: 0em;
-    padding: 0em;
-}
-
-.w4 {
-    width: 100%;
-    margin: 0em;
-    padding: 0em;
 }
 
 .button {
     border: none;
+    transition: background-color 0.1s;
 }
 
-.number {
-    background-color: lightgray;
-}
+.number { background-color: lightgray; }
+.number:hover { background-color: darkgray; }
 
-.symbol {
-    background-color: cornflowerblue;
-}
+.symbol { background-color: lightgray; }
+.symbol:hover{ background-color: cornflowerblue; }
 
-.clear {
-    background-color: limegreen;
-}
+.command { background-color: lightgray; }
+.command:hover { background-color: limegreen; }
 
 .display {
     background-color: white;
+    text-align: right;
 }

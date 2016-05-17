@@ -5,7 +5,7 @@ const BrowserWindow = electron.BrowserWindow;
 var mainWindow = null;
 
 function createWindow() {
-    mainWindow = new BrowserWindow({ width: 600, height: 800 });
+    mainWindow = new BrowserWindow({ width: 600, height: 500 });
     mainWindow.loadURL('file://' + __dirname + '/app/calc.html');
 
     mainWindow.on('closed', function () {
