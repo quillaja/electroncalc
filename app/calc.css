@@ -1,7 +1,31 @@
-.h1 {
+html, body { 
+    height: 100%;
     padding: 0em;
     margin: 0em;
-    height: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+
+.fill-height {
+    display: flex;
+    flex-direction: column;
+}
+
+.fill-height > .row {
+    flex: 1;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row > * {
+    flex: 1;
+    justify-content: center;
+    
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
 }
 
 .button {
@@ -22,3 +46,5 @@
     background-color: white;
     text-align: right;
 }
+
+.equal { flex-grow: 2; }

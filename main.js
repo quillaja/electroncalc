@@ -6,6 +6,7 @@ var mainWindow = null;
 
 function createWindow() {
     mainWindow = new BrowserWindow({ width: 600, height: 500 });
+    mainWindow.setMenu(null);
     mainWindow.loadURL('file://' + __dirname + '/app/calc.html');
 
     mainWindow.on('closed', function () {
